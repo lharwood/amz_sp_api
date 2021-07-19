@@ -3,11 +3,14 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**seller_id** | **String** | The seller identifier for the offer. | [optional] 
 **my_offer** | **BOOLEAN** | When true, this is the seller&#x27;s offer. | [optional] 
+**offer_type** | [**OfferCustomerType**](OfferCustomerType.md) |  | [optional] 
 **sub_condition** | **String** | The subcondition of the item. Subcondition values: New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or Other. | 
 **seller_feedback_rating** | [**SellerFeedbackType**](SellerFeedbackType.md) |  | [optional] 
 **shipping_time** | [**DetailedShippingTimeType**](DetailedShippingTimeType.md) |  | 
 **listing_price** | [**MoneyType**](MoneyType.md) |  | 
+**quantity_discount_prices** | [**Array&lt;QuantityDiscountPriceType&gt;**](QuantityDiscountPriceType.md) |  | [optional] 
 **points** | [**Points**](Points.md) |  | [optional] 
 **shipping** | [**MoneyType**](MoneyType.md) |  | 
 **ships_from** | [**ShipsFromType**](ShipsFromType.md) |  | [optional] 
